@@ -141,31 +141,6 @@ nav {
       transform: rotate(180deg);
       margin-left: 0;
     }
-    /* add grid layout */
-    @media screen and (min-width: 30em) {
-      [aria-describedby="experience"] section, 
-      [aria-describedby="education"] section {
-        display: grid;
-        grid-template-columns: minmax(80px, 20%) 1fr;
-        grid-column-gap: 2em;
-      }
-      [aria-describedby="experience"] dl, 
-      [aria-describedby="education"] dl {
-          grid-column: 2;
-      }
-      [aria-describedby="experience"] section div {
-        grid-row: 1/-3;
-      }
-      [role="main"] > section:last-child div {
-        display: grid;
-        grid-template-columns: 2fr 1fr; 
-      }
-      [aria-describedby="skills"]  section:last-child {
-        grid-column: 1/-1;
-        align-self: end;
-        justify-self: end;
-      }
-    }
   }
   [role="banner"] div {
     display: flex;
