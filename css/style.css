@@ -19,6 +19,9 @@ h1 {
 h2 {
   font-size: 36px;
 }
+h3 {
+  font-size: 25px;
+}
 
 /* nav bar */
 nav {
@@ -78,7 +81,6 @@ header h1 span:hover {
 }
 .cont{
   background: whitesmoke;
-
 }
 /* my skills section */
 .skills ul {
@@ -101,7 +103,42 @@ header h1 span:hover {
   padding: 20px;
   text-align: center;
 }
+/* my projects section */
+.projects ul {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-left: 0px;
+}
+.projects a{
+  text-decoration: none;
+}
+.cont h2,p{
+  color: black;
+}
+.cont h3{
+  text-align: justify;
+  width: 50%;
+  margin: auto;
+}
 
+.projects li {
+  background-color: paleturquoise;
+  box-shadow: 20px 20px 1px 2px #f64f59;
+  font-size: 35px;
+  margin: 35px;
+  padding: 20px;
+  text-align: center;
+}
+
+.projects li:hover{
+  color: aliceblue;
+  background-color: #f64f59;
+  box-shadow: 20px 20px 1px 2px grey;
+  cursor: pointer;
+}
 
 /* footer */
 .social {
